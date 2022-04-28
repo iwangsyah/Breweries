@@ -44,6 +44,7 @@ const BookmarkList = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
         <Navbar title="Bookmarked List" onBack={() => navigation.pop()}/>
+        <Text style={styles.counter}>Total Item: {bookmarkList.length}</Text>
         <ScrollView contentInsetAdjustmentBehavior="automatic" style={{backgroundColor: '#F5F5F5', padding: 16}}>
           {bookmarkList.map((item, index) => (
               <TouchableOpacity 
@@ -70,6 +71,7 @@ const BookmarkList = ({navigation}) => {
 
 const styles = StyleSheet.create({
   container: {flex: 1},
+  counter: {fontSize: 16, fontWeight: '500', backgroundColor: '#E5E5E5', padding: 16},
   itemContainer: { backgroundColor: '#FFFFFF', padding: 16, marginBottom: 16, borderRadius: 8},
   name: {flexDirection: 'row', justifyContent: 'space-between', marginBottom: 8},
   shadow: {
