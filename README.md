@@ -27,7 +27,7 @@
 4. Start the app
   - Run on Android: `npx react-native run-android` (or `yarn android`)  (or `npm run android`).
 
-  - Run on iOS: `npx react-native run-android` (or `yarn ios`) (or `npm run ios`).
+  - Run on iOS: `npx react-native run-ios` (or `yarn ios`) (or `npm run ios`).
 
 
 # Generating the APK
