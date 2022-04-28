@@ -30,6 +30,7 @@
   - Run on iOS: `npx react-native run-android` (or `yarn ios`) (or `npm run ios`).
 
 
+
 # Generating the APK
 Run the following in a terminal:
 
