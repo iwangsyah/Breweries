@@ -16,6 +16,6 @@
    yarn install
    ```
 3. Start the app
-  - Run on Android: `yarn android` (or `npm run android`).
+  - Run on Android: `npx react-native run-android` (or `yarn android`)  (or `npm run android`).
 
-  - Run on iOS: `yarn ios` (or `npm run ios`).
+  - Run on iOS: `npx react-native run-android` (or `yarn ios`) (or `npm run ios`).
