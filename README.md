@@ -22,7 +22,7 @@
     or
   
    ```sh
-   cd ios && pod install
+   cd ios && pod install && cd ..
    ```
 4. Start the app
   - Run on Android: `npx react-native run-android` (or `yarn android`)  (or `npm run android`).
