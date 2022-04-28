@@ -17,7 +17,12 @@
    ```
 3. Install Podfile for iOS
    ```sh
-   npx pod-install (or `cd ios && pod install`)
+   npx pod-install
+   ```
+    or
+  
+   ```sh
+   cd ios && pod install
    ```
 4. Start the app
   - Run on Android: `npx react-native run-android` (or `yarn android`)  (or `npm run android`).
