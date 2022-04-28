@@ -4,7 +4,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/martymfly/react-native-wordle
+   git clone https://github.com/iwangsyah/Breweries.git
    ```
 2. Install dependencies
    ```sh
