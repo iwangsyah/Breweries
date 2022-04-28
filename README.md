@@ -1,4 +1,4 @@
-# Breweries
+# Breweries List App
 
 ### Run project in development
 
@@ -28,3 +28,17 @@
   - Run on Android: `npx react-native run-android` (or `yarn android`)  (or `npm run android`).
 
   - Run on iOS: `npx react-native run-android` (or `yarn ios`) (or `npm run ios`).
+
+
+# Generating the APK
+Run the following in a terminal:
+
+```
+$ cd android
+$ ./gradlew assembleRelease
+```
+
+The generated APK can be found under:
+```
+android/app/build/outputs/apk/release/app-release.apk
+```
