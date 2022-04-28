@@ -12,7 +12,7 @@ const WebScreen = ({route, navigation}) => {
 
   return (
     <SafeAreaView style={{flex: 1}}>
-      <Navbar title={title + 'kjaksjdka jkasdjk '} onBack={() => navigation.pop()}/>
+      <Navbar title={title} onBack={() => navigation.pop()}/>
       <ProgressWebView
         source={{uri: url}}
         onNavigationStateChange={onNavigationStateChange}
